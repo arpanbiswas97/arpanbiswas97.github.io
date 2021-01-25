@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#particle-container {
+    background: #282c2f;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#particle-container .particles-js-canvas-el {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.text {
+    text-align: center;
+    color: cyan;
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    max-width: 90%;
+    padding: 2em 3em;
+    background: rgba(0, 0, 0, 0.4);
+}
