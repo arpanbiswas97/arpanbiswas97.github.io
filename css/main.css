@@ -18,14 +18,32 @@ body {
     height: 100vh !important;
 }
 
-.text {
+.social {
     text-align: center;
-    color: cyan;
     position: absolute;
     top: 25%;
     right: 50%;
     transform: translate(50%, 50%);
-    max-width: 90%;
-    padding: 2em 3em;
-    background: rgba(0, 0, 0, 0.4);
+}
+
+.social a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+}
+
+.facebook {
+    color: white;
+}
+
+.linkedin {
+    color: white;
+}
+
+.github {
+    color: white;
+}
+
+.steam {
+    color: white;
 }
